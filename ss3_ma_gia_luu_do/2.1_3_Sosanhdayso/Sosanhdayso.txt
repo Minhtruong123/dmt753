@@ -1,0 +1,8 @@
+Begin
+	Input n
+	for (i=0; i <n; i++){
+		Input a[i]
+		If a[i] > max then max = a[i]
+}
+	Display max
+End

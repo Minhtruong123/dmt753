@@ -1,0 +1,8 @@
+Begin
+	Input ds
+	If ds >= 75 then display "Loại A"
+	else If ds >= 60 then display "Loại B"
+	     else If ds >= 45 then display "Loại C"
+		    else If ds >= 35 then display "Loại D"
+			   else display "Loại E"
+End
