@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form cơ bản</title>
+    <style>
+        .form{
+            font-family:"Lucida Sans",Tahoma,sans-serif;
+        }
+        .bold{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <h2 class="bold">Order form</h2>
+        <p class="bold">What would you like to buy?</p>
+        <select>
+            <option value="     ">A</option>
+            <option>B</option>
+            <option>C  +5555555$</option>
+        </select>
+        <p class="bold">How many would you like to order?</p>
+        <input type="radio" name="rd">1 - $10 <br>
+        <input type="radio" name="rd">2 - $20 <br>
+        <input type="radio" name="rd">3 - $25 <br>
+
+        <p class="bold">Name <span style="color:#ff0000">*</span></p>
+        <input type="text" name="firstname" placeholder="FirstName">
+        <input type="text" name="lastname" placeholder="LastName">
+
+        <p class="bold">Email</p>
+        <input type="text" name="email" size="35">
+
+        <p class="bold">Phone number</p>
+        <input type="text" name="numb1" size="5"> -
+        <input type="text" name="numb2" size="5"> -
+        <input type="text" name="numb3" size="5">
+
+        <p><input type="submit" name="submit" value="Submit"></p>
+    </form>
+</body>
+</html>

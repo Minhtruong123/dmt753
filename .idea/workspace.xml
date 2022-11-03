@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03420f8e-966c-43e9-8e79-4c1825815079" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Thuc_hanh/Taoformcoban.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_git_html/Bai_tap/CV/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_git_html/Bai_tap/CV/CV.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,6 +79,7 @@
       <workItem from="1667438093118" duration="1342000" />
       <workItem from="1667447990832" duration="333000" />
       <workItem from="1667449996544" duration="289000" />
+      <workItem from="1667454965303" duration="2384000" />
     </task>
     <servers />
   </component>
@@ -95,5 +97,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="277" y="53" key="SettingsEditor" timestamp="1667455698347">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1667455698347" />
   </component>
 </project>
