@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03420f8e-966c-43e9-8e79-4c1825815079" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Formdangky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/TaoFormdongian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/surveykhachhang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do/2.1_3_Sosanhdayso/Sosanhdayso.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ss3_ma_gia_luu_do/2.1_3_Sosanhdayso/Sosanhdayso.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,9 @@
       <workItem from="1667447990832" duration="333000" />
       <workItem from="1667449996544" duration="289000" />
       <workItem from="1667454965303" duration="2384000" />
-      <workItem from="1667457600786" duration="4570000" />
+      <workItem from="1667457600786" duration="7449000" />
+      <workItem from="1667477048260" duration="4990000" />
+      <workItem from="1667524203285" duration="2341000" />
     </task>
     <servers />
   </component>
@@ -104,5 +108,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1667455698347" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1667524795980">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1667524795980" />
   </component>
 </project>
