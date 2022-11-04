@@ -1,0 +1,66 @@
+.main{
+
+}
+
+/*table 1*/
+.table1{
+
+}
+
+.head{
+    color: blue;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.cn{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.t2{
+    text-align: center;
+    color: white;
+    background-color: #ffbf00;
+}
+
+.t3{
+    text-align: center;
+    color: white;
+    background-color: #0800ff;
+}
+
+
+/*table2*/
+.table2 td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.o1{
+    width:60px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.o2{
+    width:60px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.o3{
+    width:60px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.o4{
+    color: black;
+}

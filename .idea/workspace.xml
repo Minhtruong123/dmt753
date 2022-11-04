@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03420f8e-966c-43e9-8e79-4c1825815079" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Tao_bang_don_gian/Tao_bang_don_gian.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Tao_bang_don_gian/Tao_bang_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Tao_bang_nang_cao/Ban_co_vua/Ban_co_vua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Tao_bang_nang_cao/Lich_thang_10/Lich_thang_10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Tao_bang_nang_cao/Lich_thang_10/Lich_thang_10.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/surveykhachhang.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Codegym\Module1\ss5_HTMLform_Table\Bai_tap\Tao_bang_nang_cao\Lich_thang_10" />
       <recent name="F:\Codegym\Module1\ss4_git_html\text1" />
     </key>
   </component>
@@ -87,7 +88,7 @@
       <workItem from="1667457600786" duration="7449000" />
       <workItem from="1667477048260" duration="4990000" />
       <workItem from="1667524203285" duration="11703000" />
-      <workItem from="1667548455416" duration="2880000" />
+      <workItem from="1667548455416" duration="6818000" />
     </task>
     <servers />
   </component>
