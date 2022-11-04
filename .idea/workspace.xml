@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03420f8e-966c-43e9-8e79-4c1825815079" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Tao_bang_don_gian/Tao_bang_don_gian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/Tao_bang_don_gian/Tao_bang_don_gian.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/TaoFormdongian.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/surveykhachhang.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,7 +86,8 @@
       <workItem from="1667454965303" duration="2384000" />
       <workItem from="1667457600786" duration="7449000" />
       <workItem from="1667477048260" duration="4990000" />
-      <workItem from="1667524203285" duration="3727000" />
+      <workItem from="1667524203285" duration="11703000" />
+      <workItem from="1667548455416" duration="2880000" />
     </task>
     <servers />
   </component>
