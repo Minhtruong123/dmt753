@@ -34,6 +34,7 @@
     </style>
 </head>
 <body>
+    <div>
     <form>
     <fieldset style="width: 380px; background-color: #b1dcf6">
     <table>
@@ -42,7 +43,7 @@
         </tr>
         <tr>
             <td class="main"><label>Họ và tên</label></td>
-            <td colspan="3"><input type="text" name="yourname"></td>
+            <td colspan="3"><input type="text" name="yourname" style="width: 200px"></td>
         </tr>
         <tr>
             <td class="main"><label>Email</label></td>
@@ -50,27 +51,29 @@
         </tr>
         <tr>
             <td class="main"><label>Sở thích</label></td>
-            <td class="like"><input type="checkbox" name="sport" >Thể thao</td>
-            <td class="like"><input type="checkbox" name="music">Âm nhạc</td>
-            <td class="like"><input type="checkbox" name="read" >Đọc sách </td>
+            <td class="like"><input type="checkbox" name="hobby" >Thể thao</td>
+            <td class="like"><input type="checkbox" name="hobby">Âm nhạc</td>
+            <td class="like"><input type="checkbox" name="hobby" >Đọc sách </td>
         </tr>
         <tr>
                 <td></td>
-                <td class="like"><input type="checkbox" name="Surfer">Lướt web</td>
-                <td class="like"><input type="checkbox" name="Play">Chơi game</td>
-                <td class="like"><input type="checkbox" name="film">Điện ảnh</td>
+                <td class="like"><input type="checkbox" name="hobby">Lướt web</td>
+                <td class="like"><input type="checkbox" name="hobby">Chơi game</td>
+                <td class="like"><input type="checkbox" name="hobby">Điện ảnh</td>
         </tr>
         <tr>
             <td></td>
-                <td class="like"><input type="checkbox" name="travel">Du lịch</td>
+                <td class="like"><input type="checkbox" name="hobby">Du lịch</td>
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit" value="Gửi thông tin"></td>
-            <td><input type="submit" value="Nhập lại"></td>
+            <td><button type="submit" value="Gửi thông tin">Gửi thông tin</button></td>
+            <td><button type="reset" value="Nhập lại">Nhập lại </button></td>
         </tr>
 
     </table></fieldset>
     </form>
+    </div>
+
 </body>
 </html>

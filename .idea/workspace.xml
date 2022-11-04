@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03420f8e-966c-43e9-8e79-4c1825815079" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/TaoFormdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/surveykhachhang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do/2.1_3_Sosanhdayso/Sosanhdayso.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ss3_ma_gia_luu_do/2.1_3_Sosanhdayso/Sosanhdayso.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_HTMLform_Table/Bai_tap/TaoFormdongian.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1667454965303" duration="2384000" />
       <workItem from="1667457600786" duration="7449000" />
       <workItem from="1667477048260" duration="4990000" />
-      <workItem from="1667524203285" duration="2341000" />
+      <workItem from="1667524203285" duration="3727000" />
     </task>
     <servers />
   </component>

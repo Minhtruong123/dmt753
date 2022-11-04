@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản 2</title>
+    <style>
+        th{
+            background-color: #3dff2f;
+            color: blue;
+            text-align: left;
+        }
+        .main{
+            background-color: #f5f571;
+            color: #0800ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <table>
+                <tr>
+                    <th colspan="2">ĐĂNG KÝ HỌC VIÊN</th>
+                </tr>
+                <tr>
+                    <td style="width: 100px">Họ và tên</td>
+                    <td><input type="text" name="yourname"></td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td><input type="radio" name="gender">Nam
+                        <input type="radio" name="gender">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="textarea" name="address"></td>
+                </tr>
+                <tr>
+                    <td>Lớp</td>
+                    <td><select name="" id="">
+                        <option value="">-Chọn lớp-</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Đăng ký</button>
+                        <button type="reset">Nhập lại</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
