@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator Google</title>
+</head>
+<body>
+    <div class="box">
+        <table>
+            <tr class="row">
+                <td id="khung" colspan="7">
+                    <span class="result" id="result"></span>
+                </td>
+            </tr>
+            <tr class="row">
+                <td><button class="button" onclick="calculate()">Rad</button></td>
+                <td><button class="button"></button></td>
+                <td><button class="button">x!</button></td>
+                <td><button class="button" onclick="calculate('(')">&lpar;</button></td>
+                <td><button class="button" onclick="calculate(')')">&rpar;</button></td>
+                <td><button class="button" onclick="calculate('%')">&percnt;</button></td>
+                <td><button class="button" onclick="calculate('AC')">AC</button></td>
+            </tr>
+            <tr class="row">
+                <td><button class="button" onclick="calculate()">lnv</button></td>
+                <td><button class="button" onclick="calculate()">sin</button></td>
+                <td><button class="button" onclick="calculate()">ln</button></td>
+                <td><button class="button" onclick="calculate('7')">7</button></td>
+                <td><button class="button" onclick="calculate('8')">8</button></td>
+                <td><button class="button" onclick="calculate('9')">9</button></td>
+                <td><button class="button" onclick="calculate('/')">/</button></td>
+            </tr>
+            <tr class="row">
+                <td><button class="button" onclick="calculate('pi')">&pi;</button></td>
+                <td><button class="button" onclick="calculate('cos')">cos</button></td>
+                <td><button class="button" onclick="calculate('log')">log</button></td>
+                <td><button class="button" onclick="calculate('4')">4</button></td>
+                <td><button class="button" onclick="calculate('5')">5</button></td>
+                <td><button class="button" onclick="calculate('6')">6</button></td>
+                <td><button class="button" onclick="calculate('x')">&times;</button></td>
+            </tr>
+            <tr class="row">
+                <td><button class="button" onclick="calculate('e')">e</button></td>
+                <td><button class="button" onclick="calculate('tan')">tan</button></td>
+                <td><button class="button" onclick="calculate('can')">&radic;</button></td>
+                <td><button class="button" onclick="calculate('1')">1</button></td>
+                <td><button class="button" onclick="calculate('2')">2</button></td>
+                <td><button class="button" onclick="calculate('3')">3</button></td>
+                <td><button class="button" onclick="calculate('-')">&minus;</button></td>
+            </tr>
+            <tr class="row">
+                <td><button class="button" onclick="calculate('ans')">Ans</button></td>
+                <td><button class="button" onclick="calculate('exp')">EXP</button></td>
+                <td><button class="button" onclick="calculate('luythua')">x<sup>y</sup></button></td>
+                <td><button class="button" onclick="calculate('0')">0</button></td>
+                <td><button class="button" onclick="calculate('.')">&period;</button></td>
+                <td><button class="button" onclick="calculate('=')">&equals;</button></td>
+                <td><button class="button" onclick="calculate('+')">&plus;</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
