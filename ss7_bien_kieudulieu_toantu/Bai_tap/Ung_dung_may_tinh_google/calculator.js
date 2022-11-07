@@ -7,6 +7,7 @@ var slice2;
 var slice1;
 function calculate(operate) {
     let dau;
+    let dau2;
     if (operate == '0'){
         result += operate;
         document.getElementById('result').innerHTML=result;
@@ -89,43 +90,46 @@ function calculate(operate) {
 //     Ý tưởng: Tìm dấu trong chuỗi string rồi tách chuỗi, xong bắt đầu tính
     if (operate == '='){
         dau=result.indexOf('+');
-        if (dau >> -1) {
+        if (dau > -1) {
             slice1=parseInt(result.slice(0,dau));
             slice2= parseInt(result.slice(dau+1,result.length));
             ketqua= slice1+slice2;
             dau=-1;
+            // result=ketqua.toString()
+            // document.getElementById('result').innerHTML=result;
         }
-        alert(slice2)
-        // dau=result.indexOf('-');
-        // if (dau >> -1) {
-        //     result2=result;
-        //     slice1= parseInt(result2.slice(0,dau));
-        //     slice2= parseInt(result2.slice(dau+1,result2.length));
-        //     ketqua= slice1-slice2;
-        //     dau=-1;
-        // }
-        // dau=result.indexOf('*');
-        // if (dau >> -1) {
-        //     result2=result;
-        //     slice1= parseInt(result2.slice(0,dau));
-        //     slice2= parseInt(result2.slice(dau+1,result2.length));
-        //     ketqua= slice1*slice2;
-        //     dau=-1;
-        // }
-        // dau=result.indexOf('/');
-        // if (dau >> -1) {
-        //     result2=result;
-        //     slice1= parseInt(result2.slice(0,dau));
-        //     slice2= parseInt(result2.slice(dau+1,result2.length));
-        //     ketqua= slice1/slice2;
-        //     dau=-1;
-        // }
-//         // dau=result.indexOf('%');
-//         // if (dau >> -1) {
-//         //     slice1= parseInt(result.slice(0,dau-1));
-//         //     ketqua= slice1/100;
-//         //     dau=-1;
-//         // }
-//          document.getElementById('result').innerHTML=ketqua;
+        dau=result.indexOf('-');
+        if (dau > -1) {
+            slice1=parseInt(result.slice(0,dau));
+            slice2= parseInt(result.slice(dau+1,result.length));
+            ketqua= slice1-slice2;
+            dau=-1;
+        }
+        dau=result.indexOf('x');
+        if (dau > -1) {
+            slice1=parseInt(result.slice(0,dau));
+            slice2= parseInt(result.slice(dau+1,result.length));
+            ketqua= slice1*slice2;
+            dau=-1;
+        }
+        dau=result.indexOf('/');
+        if (dau > -1) {
+            slice1=parseInt(result.slice(0,dau));
+            slice2= parseInt(result.slice(dau+1,result.length));
+            ketqua= slice1/slice2;
+            dau=-1;
+        }
+        dau=result.indexOf('%');
+        if (dau > -1) {
+            slice1=parseInt(result.slice(0,dau));
+            ketqua= slice1/100;
+            dau=-1;
+        }
+        dau=result.indexOf('(');
+        dau2=result.indexOf(')');
+        if (dau > -1) {
+
+        }
+         document.getElementById('result').innerHTML=ketqua;
      }
 }
