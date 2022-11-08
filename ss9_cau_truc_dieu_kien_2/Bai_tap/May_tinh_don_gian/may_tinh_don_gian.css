@@ -1,0 +1,15 @@
+
+
+.result{
+    border: 1px solid black;
+    height: 20px;
+    width: 120px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.set{
+    height: 20px;
+    width: 30px;
+    color:blue;
+}

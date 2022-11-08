@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Năm nhuận</title>
+</head>
+<body>
+    <script>
+        var year=parseInt(prompt('Nhập vào năm bạn muốn xét'));
+
+        if (year % 100 == 0)
+            if (year % 400 == 0) alert('Đó là năm nhuận')
+            else alert('Đó là năm không nhuận')
+        else if (year % 4 ==0) alert('Đó là năm nhuận')
+            else alert('Đó là năm không nhuận')
+    </script>
+</body>
+</html>

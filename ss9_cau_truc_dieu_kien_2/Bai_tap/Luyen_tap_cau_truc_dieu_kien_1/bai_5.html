@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+    <div id="bai5"></div>
+    <script>
+        let a=parseInt(prompt('Điểm bài kiểm tra: '))
+        let b=parseInt(prompt('Điểm thi giữa kì: '))
+        let c=parseInt(prompt('Điểm thi cuối kì: '))
+        let result= ((a + b*2 +c*3) / 6) >= 8?'Học sinh giỏi': ((a + b*2 +c*3) / 6) >= 5?'Học sinh trung bình':'Học sinh yếu';
+        document.getElementById('bai5').innerHTML=result;
+
+    </script>
+</body>
+</html>
