@@ -130,6 +130,6 @@ function calculate(operate) {
         if (dau > -1) {
 
         }
-         document.getElementById('result').innerHTML=ketqua;
-     }
+        document.getElementById('result').innerHTML=ketqua;
+    }
 }
