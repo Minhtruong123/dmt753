@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử dụng vòng lặp lồng nhau</title>
+</head>
+<body>
+    <script>
+        let dem,i,j;
+        dem= "<table border='1' cellspacing='0' cellpadding='5'>"
+        for (i=1; i<=10;i++) {
+            dem=dem + '<tr>';
+            for (j=1; j<=10;j++) {
+                dem =dem+ '<td>'+i * j+'</td>';
+            }
+            dem=dem + '</tr>'
+        }
+        dem=dem + "</table>"
+        document.writeln(dem)
+    </script>
+</body>
+</html>

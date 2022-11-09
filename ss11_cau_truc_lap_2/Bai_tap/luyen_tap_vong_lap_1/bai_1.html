@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+    <div id="bai1"></div>
+    <script>
+        let a='';
+        for (let i=1;i<=100;i++){
+            a= a + i.toString()+' ';
+            if (i==99){
+                alert('Bạn đã hoàn thành')
+                break;
+            }
+        }
+        document.getElementById('bai1').innerHTML=a;
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cửu chương</title>
+</head>
+<body>
+    <script>
+        let mul,i,j;
+        mul='<table border="1" cellspacing="0" cellpadding="4">'
+        for (i=1; i<=9;i++){
+            mul=mul+ '<tr>'
+            for (j=2;j<10;j++){
+                mul=mul + '<td>' +j+'x'+i+'='+i*j+ '</td>';
+            }
+            mul=mul+ '</tr>'
+        }
+        mul=mul + '</table>';
+        document.write(mul)
+    </script>
+</body>
+</html>
