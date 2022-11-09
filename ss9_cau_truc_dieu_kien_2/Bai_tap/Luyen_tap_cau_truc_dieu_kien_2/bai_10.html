@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 10</title>
+</head>
+<body>
+    <div id="bai10"></div>
+    <script>
+        let kWh=+prompt('Nhập số kWh bạn đã sử dụng: ');
+        let bac6=kWh*2927;
+        let bac5=kWh*2834;
+        let bac4=kWh*2536;
+        let bac3=kWh*2014;
+        let bac2=kWh*1734;
+        let bac1=kWh*1678;
+        if (kWh>400) document.getElementById('bai10').innerHTML='Tiền bạn phải trả: '+bac6+' VND';
+        else if (kWh>300) document.getElementById('bai10').innerHTML='Tiền bạn phải trả: '+bac5+' VND';
+        else if (kWh>200) document.getElementById('bai10').innerHTML='Tiền bạn phải trả: '+bac4+' VND';
+        else if (kWh>100) document.getElementById('bai10').innerHTML='Tiền bạn phải trả: '+bac3+' VND';
+        else if (kWh>50) document.getElementById('bai10').innerHTML='Tiền bạn phải trả: '+bac2+' VND';
+        else document.getElementById('bai10').innerHTML='Tiền bạn phải trả: '+bac1+' VND';
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+    <div id="bai7"></div>
+    <script>
+        confirm('Đây là phương trình bậc 2')
+        let a=+prompt('Mời bạn nhập a: ')
+        let b=+prompt('Mời bạn nhập b: ')
+        let c=+prompt('Mời bạn nhập c: ')
+        let result;
+        let result2;
+        let delta;
+        if (a ==0 && b!=0) document.getElementById('bai7').innerHTML=(-c)/b;
+        else if (a!=0) {
+            delta = Math.pow(b,2)- 4*a*c;
+            if (delta<0) document.getElementById('bai7').innerHTML='Phương trình vô nghiệm'
+            else if (delta==0){
+                result= (-b)/a*2;
+                document.getElementById('bai7').innerHTML='Phương trình có nghiệm kép: '+result;
+            }
+            else {
+                result= (-b+Math.sqrt(delta))/2*a;
+                result2= (-b-Math.sqrt(delta))/2*a;
+                document.getElementById('bai7').innerHTML='Phương trình có 2 nghiệm: '+result+' và '+result2;
+            }
+        } else document.getElementById('bai7').innerHTML='Phương trình vô nghiệm';
+
+    </script>
+</body>
+</html>

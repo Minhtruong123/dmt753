@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 12</title>
+</head>
+<body>
+    <div id="bai12"></div>
+    <script>
+        let moneyBegin=+prompt('Số tiền ban đầu: ')
+        let month=+prompt('Số tháng cho vay')
+        let interestRate=+prompt('Lãi xuất hàng tháng là: ')
+        let result=moneyBegin*interestRate*month/12*month;
+        document.getElementById('bai12').innerHTML='Lãi suất bạn nhập được là: '+result+' VND';
+    </script>
+</body>
+</html>
