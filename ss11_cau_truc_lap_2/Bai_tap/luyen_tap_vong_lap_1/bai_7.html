@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+    <div id="bai7"></div>
+    <script>
+        let i;
+        let result='';
+        for (i=1;i<=100;i++){
+            e=i;
+            if (i % 15==0) e='FizzBuzz'
+            else if (i %3==0) e='Fizz'
+            else if (i%5==0) e='Buzz'
+            result= result+ e.toString() + ' ';
+        }
+    document.getElementById('bai7').innerHTML=result
+    </script>
+</body>
+</html>
