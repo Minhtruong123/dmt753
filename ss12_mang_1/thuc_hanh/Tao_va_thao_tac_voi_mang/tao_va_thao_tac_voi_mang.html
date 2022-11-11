@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo và thao tác với mảng</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #main{
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid black;
+        }
+        .demo{
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" class="main">
+        <h1>Sample Screen</h1>
+        <input type="text" name="num" id="num" class="num">
+        <button type="button" name="add" id="add" onclick="add()">Add</button>
+        <button type="button" name="display" class="display" onclick="disPlay()">Display</button>
+    </div>
+    <div id="demo" class="demo"></div>
+    <script>
+        var numberArr=[];
+        let result='';
+        function add() {
+            numberArr.push(document.getElementById('num').value);
+            document.getElementById('num').value=''
+        }
+        function disPlay() {
+            let i;
+            for (i=0;i <numberArr.length;i++){
+                result=result+ 'Element '+i+'= '+numberArr[i].toString()+ '<br>';
+            }
+            document.getElementById('demo').innerHTML=result;
+        }
+    </script>
+</body>
+</html>
