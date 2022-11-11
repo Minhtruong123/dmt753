@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+    <div id="bai2"></div>
+    <script>
+        let str=prompt('Nhập vào 1 số: ')
+        let str2='';
+        let i;
+        for (i=0;i<str.length;i++){
+            str2=str2.concat(str[i])
+            if (str[i]%2==0 && str[i+1]%2==0){
+                str2=str2.concat('-');
+            }
+        }
+        document.getElementById('bai2').innerHTML=str2;
+    </script>
+</body>
+</html>
