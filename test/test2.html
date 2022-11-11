@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test 2</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        let e=0;
+        let k=0;
+        let i,j;
+        let result='';
+        for (i=1;i<400;i++){
+            if (i<2) continue
+            else {
+                for (j=2;j<=i/2; j++){
+                    if (i%j==0){
+                        k+=1;
+                        continue;
+                    }
+                }
+            }
+            if (k==0){
+                result=result+ i.toString();
+                e+=1;
+                if (e>20) break;
+            }
+        }
+        document.getElementById('demo').innerHTML=result
+    </script>
+</body>
+</html>
