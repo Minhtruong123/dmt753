@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+    <div id="bai5"></div>
+    <script>
+        let n=+prompt('Số phần tử bạn muốn nhập: ');
+        let arr=[];
+        let i;
+        let e=0;
+        for (i=1;i<=n;i++){
+            arr[i]=prompt('Nhập số thứ '+i)
+            if (+arr[i]<0) e++;
+        }
+        document.getElementById('bai5').innerHTML='Số lượng số nguyên âm có trong chuỗi là: '+e;
+    </script>
+</body>
+</html>

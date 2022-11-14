@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+    <div id="bai3"></div>
+    <script>
+        let n=+prompt('Số phần tử bạn muốn nhập: ')
+        let i;
+        let e=0;
+        let arr=[]
+        for (i=0;i<n;i++){
+            arr[i]=prompt('Nhập số ở vị trí thứ '+i)
+            e+=+arr[i];
+        }
+        document.getElementById('bai3').innerHTML=e/n;
+    </script>
+</body>
+</html>
