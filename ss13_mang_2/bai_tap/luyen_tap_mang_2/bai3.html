@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+    <div id="bai3"></div>
+    <script>
+        let n=+prompt('Số phần tử bạn muốn kiểm tra: ')
+        let arr=[]
+        let i;
+        let e=0;
+        for (i=0;i<n;i++){
+            arr[i]=prompt('Nhập ký tự thứ '+i)
+            if (arr[i]=+arr[i]) e++
+        }
+        document.getElementById('bai3').innerHTML='Số ký tự số trong mảng là: '+e;
+    </script>
+</body>
+</html>
