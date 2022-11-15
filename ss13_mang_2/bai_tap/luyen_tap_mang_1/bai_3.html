@@ -11,11 +11,14 @@
         let i;
         let e=0;
         let arr=[]
+        let max=0;
         for (i=0;i<n;i++){
             arr[i]=prompt('Nhập số ở vị trí thứ '+i)
+            if (i==0) max=+arr[i]
+            if (+arr[i]>max) max=+arr[i]
             e+=+arr[i];
         }
-        document.getElementById('bai3').innerHTML=e/n;
+        document.getElementById('bai3').innerHTML='Số lớn nhất là: '+max+' và trung bình là: '+e/n;
     </script>
 </body>
 </html>

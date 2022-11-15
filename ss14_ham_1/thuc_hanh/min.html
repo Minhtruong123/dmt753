@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Min</title>
+</head>
+<body>
+    <div id="min"></div>
+    <script>
+        function minArr(arr1){
+            let min1=+arr1[0]
+            for (let j=1;j<arr1.length;j++){
+                if (+arr1[j]<min1) min1=+arr1[i]
+            }
+            return min1;
+        }
+        let n=prompt('Nhập số lượng phần tử: ');
+        let arr=[]
+        let i;
+        for (i=0;i<n;i++){
+            arr[i]=prompt('Nhập phần tử '+i)
+        }
+        let min=minArr(arr)
+        document.getElementById('min').innerHTML=min
+    </script>
+</body>
+</html>

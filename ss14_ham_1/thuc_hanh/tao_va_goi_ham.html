@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo và gọi hàm</title>
+</head>
+<body>
+    <script>
+        function answerInp(theAnswer){
+            let result='';
+            if (theAnswer){
+                result='Ok.Chào mừng bạn!'
+            }
+            else result='Goodbye'
+            return result
+        }
+        let inp=confirm('Bạn có muốn chơi game không')
+        let answer=answerInp(inp);
+        alert(answer)
+    </script>
+</body>
+</html>
