@@ -8,12 +8,18 @@
     <div id="bai4"></div>
     <script>
         let str=prompt('Nhập chuỗi: ')
+        let mang=str.split('')
+        let str1='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        let mang1=str1.split('')
+        let str2='abcdefghijklmnopqrstuvwxyz';
+        let mang2=str2.split('')
         let i;
         let e=0;
-        for (i=0;i<str.length;i++){
-            if (str[i]!=+str[i]) e++
+        for (i=0;i<mang.length;i++){
+            console.log(mang2.indexOf(mang[i])>-1)
+            if (mang1.indexOf(mang[i])>-1 || mang2.indexOf(mang[i])>-1) e+=1;
         }
-        document.getElementById('bai4').innerHTML=e;
+        document.getElementById('bai4').innerHTML='Số từ có trong chuỗi là: '+e;
     </script>
 </body>
 </html>
