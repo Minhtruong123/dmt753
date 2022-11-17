@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<div id="bai7"></div>
+<script>
+    function swapNumber(a, b) {
+        return [b, a]
+    }
+
+    let a = +prompt('Nhập vào số thứ nhất: ')
+    let b = +prompt('Nhập vào số thứ hai: ')
+    let arr = swapNumber(a, b)
+    document.getElementById('bai7').innerHTML = 'a = ' + arr[0] + ', b = ' + arr[1]
+</script>
+</body>
+</html>

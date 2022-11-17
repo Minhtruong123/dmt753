@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8</title>
+</head>
+<body>
+<div id="bai8"></div>
+<script>
+    function reverseNumber(arr) {
+        let arr1 = []
+        for (i = 0, j = arr.length - 1; i < arr.length, j >= 0; i++, j--) {
+            arr1[j] = arr[i]
+        }
+        return arr1;
+    }
+
+    let n = +prompt('Số phần tử bạn muốn nhập: ')
+    let i;
+    let arr = []
+    for (i = 0; i < n; i++) {
+        arr[i] = prompt('Nhập vào phần tử thứ ' + i)
+    }
+    document.getElementById('bai8').innerHTML = 'Mảng đảo ngược là: ' + reverseNumber(arr)
+</script>
+</body>
+</html>

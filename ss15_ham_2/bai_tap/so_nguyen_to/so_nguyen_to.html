@@ -19,10 +19,12 @@
         return kt;
     }
 
-    let variable = +prompt('Nhập số muốn xét: ')
     let result = '';
-    if (isPrime(variable)) result = 'Số nguyên tố'
-    else result = 'Không phải là số nguyên tố'
+    for (i=1;i<10000;i++){
+        if (isPrime(i)){
+            result=result+i + ' ';
+        }
+    }
     document.getElementById('snt').innerHTML = result
 </script>
 </body>
