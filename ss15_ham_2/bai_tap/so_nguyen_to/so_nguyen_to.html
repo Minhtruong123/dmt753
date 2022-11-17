@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số nguyên tố</title>
+</head>
+<body>
+<div id="snt"></div>
+<script>
+    function isPrime(n) {
+        let kt = true;
+        if (n < 2) kt = false
+        else for (let i = 2; i <= n / 2; i++) {
+            if (n % i == 0) {
+                kt = false;
+                break;
+            }
+        }
+        return kt;
+    }
+
+    let variable = +prompt('Nhập số muốn xét: ')
+    let result = '';
+    if (isPrime(variable)) result = 'Số nguyên tố'
+    else result = 'Không phải là số nguyên tố'
+    document.getElementById('snt').innerHTML = result
+</script>
+</body>
+</html>

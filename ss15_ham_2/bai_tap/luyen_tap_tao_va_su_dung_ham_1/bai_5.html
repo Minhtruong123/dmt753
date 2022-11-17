@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let mang1=['Polaris','Aldebaran','Deneb','Vega','Altair','Dubhe','Regulus']
+    let mang2=['Ursa Minor','Tarurus','Cygnus','Lyra','Aquila','Ursa Major','Leo']
+    function findStar(star){
+        for (i=0;i<mang1.length;i++){
+            if (mang1[i]==star) return i
+        }
+        return -1
+
+    }
+    let mangInput=prompt('Nhập tên bạn muốn tìm: ')
+    let result='';
+    console.log(findStar(mangInput))
+    if (findStar(mangInput)>-1) result=mang2[findStar(mangInput)]
+    else result='Không tìm thấy'
+    document.write(result)
+</script>
+</body>
+</html>

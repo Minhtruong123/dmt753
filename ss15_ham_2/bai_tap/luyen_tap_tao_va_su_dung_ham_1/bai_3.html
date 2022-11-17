@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<div id="bai3"></div>
+<script>
+    function compareSum(a, b) {
+        let result;
+        if (a > b) result = 'Giá trị của ' + a + ' lớn hơn ' + b;
+        else result = a + b;
+        return result
+    }
+
+    let x = +prompt('Nhập số thứ nhất: ');
+    let y = +prompt('Nhập số thứ hai: ');
+    document.getElementById('bai3').innerHTML = 'Giá trị trả về: ' + compareSum(x, y)
+</script>
+</body>
+</html>
