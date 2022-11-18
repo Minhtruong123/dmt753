@@ -9,8 +9,8 @@
 <script>
     function reverseNumber(arr) {
         let arr1 = []
-        for (i = 0, j = arr.length - 1; i < arr.length, j >= 0; i++, j--) {
-            arr1[j] = arr[i]
+        for (j = arr.length - 1;j >= 0; j--) {
+            arr1.push(arr[j])
         }
         return arr1;
     }
