@@ -5,29 +5,27 @@
     <title>test 2</title>
 </head>
 <body>
-    <div id="demo"></div>
-    <script>
-        let e=0;
-        let k=0;
-        let i,j;
-        let result='';
-        for (i=1;i<400;i++){
-            if (i<2) continue
-            else {
-                for (j=2;j<=i/2; j++){
-                    if (i%j==0){
-                        k+=1;
-                        continue;
-                    }
-                }
-            }
-            if (k==0){
-                result=result+ i.toString();
-                e+=1;
-                if (e>20) break;
-            }
+<div id="demo"></div>
+<script>
+    let n = +prompt('Nhập n: ')
+    let i, j;
+    let sum1 = 0;
+    let sum2 = 0;
+    let a = [];
+    for (i = 0; i < n; i++) {
+        let b = [];
+        a.push(b);
+        for (j = 0; j < n; j++) {
+            b[j] = prompt('Nhập số hàng ' + i + ' vị trí ' + j)
+            if (i == j)
+                sum1 += +a[i][j]
         }
-        document.getElementById('demo').innerHTML=result
-    </script>
+    }
+    for (i = 0; i < n; i++) {
+        sum2 += +a[i][n - (i + 1)]
+    }
+    document.write(Math.abs(sum1 - sum2))
+
+</script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonanci</title>
+</head>
+<body>
+<div id="fib"></div>
+<script>
+    function fib(n) {
+        if (n<2) return 1
+        return  fib(n-1)+fib(n-2)
+    }
+
+    let i;
+    let result='';
+    for (i=0;i<11;i++)
+        result =result+ fib(i) +' '
+    document.getElementById('fib').innerHTML=result
+</script>
+</body>
+</html>
