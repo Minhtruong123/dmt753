@@ -7,13 +7,12 @@
 <body>
 <div id="bai7"></div>
 <script>
-    function swapNumber(a, b) {
-        return [b, a]
-    }
-
     let a = +prompt('Nhập vào số thứ nhất: ')
     let b = +prompt('Nhập vào số thứ hai: ')
-    document.getElementById('bai7').innerHTML = 'a = ' + swapNumber(a,b)[0] + ', b = ' + swapNumber(a,b)[1]
+    b=function(a){
+        return a
+    }(a,a=b)
+    document.getElementById('bai7').innerHTML = 'a = ' + a + ', b = ' + b
 </script>
 </body>
 </html>
