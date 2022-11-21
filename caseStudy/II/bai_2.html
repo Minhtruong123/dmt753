@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<div id="bai2"></div>
+<script>
+    let vowelLowerCase = ['u', 'e', 'o', 'a', 'i']
+    let vowelUpperCase = ['U', 'E', 'O', 'A', 'I']
+    let character = prompt('Nhập vào 1 ký tự: ')
+    let result = '';
+    if (vowelLowerCase.includes(character) || vowelUpperCase.includes(character))
+        result = 'Đó là từ nguyên âm';
+    else result = 'Đó là từ phụ âm'
+    document.getElementById('bai2').innerHTML = result
+</script>
+</body>
+</html>

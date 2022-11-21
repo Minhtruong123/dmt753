@@ -20,10 +20,22 @@
     //     if (mang1.indexOf(mang[i])>-1 || mang2.indexOf(mang[i])>-1) e+=1;
     // }
     // document.getElementById('bai4').innerHTML='Số từ có trong chuỗi là: '+e;
-    let str = prompt('Nhập chuỗi: ')
+    let str = prompt('Nhập chuỗi: ');
+    let str2 = str.trim();
+    let mang = str2.split('');
+    let i;
     let e = 0;
-    let mang = str.split(' ')
-    document.getElementById('bai4').innerHTML = 'Số từ có trong chuỗi là: ' + mang.length;
+    for (i = 0; i < mang.length; i++) {
+        if (mang[i] == [' '] && mang[i + 1] == [' ']) {
+            mang.splice(i, 1);
+            i = i - 1;
+        }
+    }
+    for (i = 0; i < mang.length; i++) {
+        if (mang[i].includes([' '])) e += 1;
+    }
+    e += 1;
+    document.getElementById('bai4').innerHTML = 'Số từ có trong chuỗi là: ' + e;
 </script>
 </body>
 </html>

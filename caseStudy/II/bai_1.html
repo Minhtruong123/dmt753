@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<div id="bai1"></div>
+<script>
+    let salary = +prompt('Nhập vào lương của bạn')
+    let netSalary;
+    let tax;
+    if (salary >= 15000000) {
+        tax = '20%'
+        netSalary = salary - salary * 20 / 100;
+    } else if (salary >= 7000000) {
+        tax = '10%';
+        netSalary = salary - salary * 10 / 100;
+    } else {
+        tax = '5%';
+        netSalary = salary - salary * 5 / 100;
+    }
+    document.getElementById('bai1').innerHTML = 'Thuế bạn phải đóng là: ' + tax + ' và lương thực nhận: ' + netSalary
+</script>
+</body>
+</html>
