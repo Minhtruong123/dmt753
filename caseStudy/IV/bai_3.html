@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<div id="bai3"></div>
+<script>
+    let str1=prompt('Nhập chuỗi thứ nhất: ');
+    let str2=prompt('Nhập chuỗi thứ hai: ');
+    let i,j,k;
+    let e=0;
+    let mang1=str1.split('');
+    let mang2=str2.split('');
+    for (i=0;i<mang1.length;i++){
+        k=mang2.indexOf(mang1[i]);
+        if (k>-1){
+            e++;
+            mang2.splice(k,1);
+        }
+    }
+    document.getElementById('bai3').innerHTML='Số lượng kí tự chung là: '+e;
+</script>
+</body>
+</html>

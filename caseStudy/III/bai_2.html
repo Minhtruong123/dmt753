@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<div id="bai2"></div>
+<script>
+    let a = +prompt('Số phần tử mảng A: ');
+    let b = +prompt('Số phần tử mảng B: ');
+    let arrA = [];
+    let arrB = [];
+    let i, j;
+    for (i = 0; i < a; i++) {
+        arrA[i] = prompt('Nhập phần tử thứ ' + i + ' mảng A');
+    }
+    for (i = 0; i < b; i++) {
+        arrB[i] = prompt('Nhập phần tử thứ ' + i + ' mảng B');
+    }
+    for (i = 0; i < b; i++) {
+        let storage = arrA.indexOf(arrB[i]);
+        if (storage > -1) {
+            arrA.splice(storage, 1);
+            arrB.splice(i, 1);
+            i = i - 1;
+            b = b - 1;
+        }
+    }
+    arrB.sort(function (a, b) {
+        return a - b;
+    })
+    document.getElementById('bai2').innerHTML = 'Missing Value: [' + arrB + ']';
+</script>
+</body>
+</html>

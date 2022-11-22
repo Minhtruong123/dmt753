@@ -9,15 +9,15 @@
 <script>
     function min(a,b,c){
         if (a<b)
-            if (a<c) return a
-            else return c
-        else if (b<c) return b
-            else return c
+            if (a<c) return a;
+            else return c;
+        else if (b<c) return b;
+            else return c;
     }
-    let a = +prompt('Nhập số thứ nhất: ')
-    let b = +prompt('Nhập số thứ hai: ')
-    let c = +prompt('Nhập số thứ ba: ')
-    document.getElementById('bai5').innerHTML = 'Số nhỏ nhất trong ba số là: ' + min(a, b, c)
+    let a = +prompt('Nhập số thứ nhất: ');
+    let b = +prompt('Nhập số thứ hai: ');
+    let c = +prompt('Nhập số thứ ba: ');
+    document.getElementById('bai5').innerHTML = 'Số nhỏ nhất trong ba số là: ' + min(a, b, c);
 </script>
 </body>
 </html>

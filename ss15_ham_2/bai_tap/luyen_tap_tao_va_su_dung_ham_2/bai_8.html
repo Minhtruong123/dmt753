@@ -8,20 +8,20 @@
 <div id="bai8"></div>
 <script>
     function reverseNumber(arr) {
-        let arr1 = []
+        let arr1 = [];
         for (j = arr.length - 1; j >= 0; j--) {
-            arr1.push(arr[j])
+            arr1.push(arr[j]);
         }
         return arr1;
     }
 
     let n = +prompt('Số phần tử bạn muốn nhập: ')
     let i;
-    let arr = []
+    let arr = [];
     for (i = 0; i < n; i++) {
-        arr[i] = prompt('Nhập vào phần tử thứ ' + i)
+        arr[i] = prompt('Nhập vào phần tử thứ ' + i);
     }
-    document.getElementById('bai8').innerHTML = 'Mảng đảo ngược là: ' + reverseNumber(arr)
+    document.getElementById('bai8').innerHTML = 'Mảng đảo ngược là: ' + reverseNumber(arr);
 </script>
 </body>
 </html>
