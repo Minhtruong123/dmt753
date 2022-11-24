@@ -10,15 +10,19 @@
     let n = +prompt('Số lượng phân số bạn muốn nhập: ');
     let numerator = [];
     let denominator = [];
-    let i;
+    let i, k, e;
     let max;
     for (i = 0; i < n; i++) {
         numerator[i] = prompt('Nhập tử số thứ: ' + i);
         denominator[i] = prompt('Nhập mẫu số thứ: ' + i);
         if (i == 0) max = (+numerator[i]) / (+denominator[i])
-        if ((+numerator[i]) / (+denominator[i]) > max) max = (+numerator[i]) / (+denominator[i])
+        if ((+numerator[i]) / (+denominator[i]) > max) {
+            max = (+numerator[i]) / (+denominator[i])
+            k = i;
+            e = numerator[i] + '/' + denominator[i];
+        }
     }
-    document.getElementById('bai3').innerHTML = 'Chỉ số lớn nhất là: ' + Math.ceil(max);
+    document.getElementById('bai3').innerHTML = 'Chỉ số lớn nhất là: ' + k + '. Có giá trị là : ' + e;
 </script>
 </body>
 </html>
