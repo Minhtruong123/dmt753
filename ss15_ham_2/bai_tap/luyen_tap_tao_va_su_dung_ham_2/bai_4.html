@@ -8,7 +8,7 @@
 <div id="bai4"></div>
 <script>
     function considerValue(n) {
-        if (n==+n) return true;
+        if (isFinite(n)) return true;
         return false;
     }
     let n=prompt('Nhập vào 1 số: ');

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dãy giảm</title>
+</head>
+<body>
+<script>
+    let n=+prompt('Số lượng phần tử bạn muốn nhập');
+    let a=[];
+    let i;
+    for (i=0;i<n;i++){
+        a[i]=prompt('Nhập phần tử thứ '+i);
+    }
+    let e=0;
+    for (i=0;i<n-1;i++){
+        if (a[i]> a[i+1]) e++
+        else break;
+    }
+    if (e==(n-1)) document.write('Đó là dãy giảm');
+    else document.write('Đó không phải dãy giảm');
+</script>
+</body>
+</html>
